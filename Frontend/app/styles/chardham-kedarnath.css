@@ -1,0 +1,157 @@
+.ck-hero {
+  position: relative;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #020617, #020b2d);
+  color: white;
+}
+
+.ck-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top right, #2563eb55, transparent);
+}
+
+.ck-container {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.ck-hero-text h1 {
+  font-size: 56px;
+  font-weight: 800;
+}
+
+.ck-hero-text span {
+  background: linear-gradient(90deg, #60a5fa, #22d3ee);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.ck-hero-text p {
+  font-size: 18px;
+  margin-top: 16px;
+  color: #cbd5f5;
+}
+
+.ck-hero-img {
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+/* HIGHLIGHTS */
+.ck-highlights {
+  padding: 80px 20px;
+  background: #020617;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.highlight-card {
+  background: #020b2d;
+  padding: 30px;
+  border-radius: 18px;
+}
+
+.highlight-card svg {
+  color: #22d3ee;
+}
+
+/* PACKAGES */
+.ck-packages {
+  padding: 80px 20px;
+  background: #020b2d;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.package-card {
+  background: #020617;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.package-meta span {
+  display: block;
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.price {
+  font-size: 26px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #60a5fa, #22d3ee);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.package-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.package-card li {
+  display: flex;
+  gap: 8px;
+  font-size: 14px;
+}
+
+/* BUTTONS */
+.btn-primary {
+  display: block;
+  margin-top: 20px;
+  background: linear-gradient(90deg, #2563eb, #22d3ee);
+  color: white;
+  text-align: center;
+  padding: 14px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.ck-cta {
+  padding: 100px 20px;
+  background: #020617;
+}
+
+.cta-box {
+  max-width: 900px;
+  margin: auto;
+  background: linear-gradient(90deg, #2563eb, #22d3ee);
+  padding: 60px;
+  border-radius: 24px;
+  text-align: center;
+  color: white;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.btn-white {
+  background: white;
+  color: #2563eb;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn-outline {
+  border: 2px solid white;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+}
