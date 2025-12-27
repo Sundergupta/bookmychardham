@@ -3,11 +3,6 @@
 import Link from "next/link";
 import "../../styles/about.css";
 
-export const metadata = {
-    title: "Booking | Book My Charter",
-    description: "Book My Charter - secure your helicopter charter booking.",
-};
-
 export default function Booking() {
     return (
         <section className="hero">

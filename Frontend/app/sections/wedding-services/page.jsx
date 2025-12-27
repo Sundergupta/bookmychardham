@@ -13,13 +13,6 @@ import {
 } from "lucide-react";
 import "../../styles/wedding-services.css";
 
-/* ✅ SEO (SSR) */
-export const metadata = {
-    title:
-        "Wedding Helicopter Services | Luxury Wedding Charter | Book My Charter",
-    description:
-        "Make your wedding unforgettable with luxury helicopter services including grand entrance, aerial photography, VIP transport and pre-wedding shoots.",
-};
 
 export default function WeddingServices() {
     const services = [
